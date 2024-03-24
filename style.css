@@ -18,3 +18,33 @@
   box-sizing: border-box;
   font-family: 'Roboto Regular';
 }
+
+/* Top Navbar */
+
+nav.top-nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 1.6rem auto 0.6rem;
+  font-size: .95rem;
+  font-weight: 700;
+}
+
+.logo {
+  width: 36px;
+  min-width: 36px;
+}
+
+.motors, .property {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.motors-icon, .property-icon {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 100%;
+  background: linear-gradient(180deg,rgba(0,47,52,.16),rgba(0,47,52,.01) 81.77%,rgba(0,47,52,.01));
+}
