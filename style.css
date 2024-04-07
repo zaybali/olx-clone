@@ -19,6 +19,12 @@
   font-family: 'Roboto Regular';
 }
 
+
+header {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 1rem;
+}
+
 /* Top Navbar */
 
 nav.top-nav {
@@ -26,6 +32,7 @@ nav.top-nav {
   align-items: center;
   gap: 30px;
   margin: 1.6rem auto 0.6rem;
+  max-width: 1300px;
   font-size: .95rem;
   font-weight: 700;
 }
@@ -47,4 +54,112 @@ nav.top-nav {
   padding: 8px;
   border-radius: 100%;
   background: linear-gradient(180deg,rgba(0,47,52,.16),rgba(0,47,52,.01) 81.77%,rgba(0,47,52,.01));
+}
+
+
+/* Main Navbar */
+
+.main-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1300px;
+  margin: 0 auto;
+  gap: 2rem;
+  padding: .25rem;
+  align-items: center;
+}
+
+.location-search {
+  width: 40%;
+  position: relative
+}
+
+.input-location{
+  background: url("./images/pin-icon.svg") center left no-repeat;
+  padding-left:25px;  
+  width: 100%;
+  height: 46px;
+  min-width: 50px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.location-search img {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.search-products {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.search-products .input-search-products {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid lightgray;
+  padding-left: 14px;
+}
+
+.search-products button {
+  height: 46px;
+  background-color: #002f34;
+  color: #FFFFFF;
+  border: none;
+  padding: 0 8px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.input-search-products {
+  width: 60%;
+  height: 46px;
+  min-width: 50px;
+}
+
+.sell-button-container div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 105px;
+  height: 50px;
+  background-image: url("./images/sell-colored-border.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-container a {
+  color: #002f34;
+}
+
+
+/* Main Section */
+
+
+main {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.categories-list {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  padding: 1rem 0;
+}
+
+.categories-list img {
+  width: 15px;
+}
+
+.categories-list a {
+  text-decoration: none;
+  color: #002f34;
+  font-size: .9rem;
 }
