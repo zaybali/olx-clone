@@ -139,7 +139,6 @@ nav.top-nav {
 
 /* Main Section */
 
-
 main {
   max-width: 1300px;
   margin: 0 auto;
@@ -150,7 +149,6 @@ main {
   gap: 15px;
   align-items: center;
   flex-wrap: nowrap;
-  overflow-x: scroll;
   padding: 1rem 0;
 }
 
@@ -162,4 +160,25 @@ main {
   text-decoration: none;
   color: #002f34;
   font-size: .9rem;
+}
+
+
+/* Categories Icons */
+
+.cat-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.cat-icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.cat-icon a {
+  text-decoration: none;
+  color: #002f34;
 }
