@@ -231,3 +231,8 @@ main {
 .card-time {
   font-size: .8rem;
 }
+
+section.apps {
+  display: flex;
+}
+
