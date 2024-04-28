@@ -182,3 +182,52 @@ main {
   text-decoration: none;
   color: #002f34;
 }
+
+.title-and-viewmore {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-and-viewmore a{
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.card-container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.card {
+  width: 340px;
+  min-width: 320px;
+  border: 1px solid darkgray;
+  border-radius: 6px;
+  padding-bottom: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.card-price-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.card-product-title, .card-address, .card-time {
+  padding: 2px 8px;
+  color: grey;
+  font-weight: 500;
+}
+
+.card-time {
+  font-size: .8rem;
+}
