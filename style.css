@@ -234,5 +234,57 @@ main {
 
 section.apps {
   display: flex;
+  gap: 1rem;
 }
 
+section.apps {
+  width: 100%;
+}
+
+.app-img {
+  width: 30%;
+  min-width: 380px;
+  min-height: 200px;
+}
+
+.apps-content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.apps-link {
+  width: 30%;
+  border-left: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.images {
+  margin-left: 1rem;
+}
+
+.apps-link img {
+  width: 120px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .apps-content {
+    display: none;
+  }
+
+  section.apps {
+    gap: 5rem;
+  }
+
+  .apps-link img {
+    width: 150px;
+    margin: 0 auto;
+  }
+}
